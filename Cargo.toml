@@ -1,0 +1,9 @@
+[package]
+name = "xapp"
+version = "0.1.0"
+edition = "2021"
+description = "SigmaOS SigmaOS-xapp component"
+license = "MIT"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-xapp"
+
+[dependencies]
