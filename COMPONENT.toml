@@ -3,12 +3,12 @@ name = "SigmaOS-xapp"
 tier = 3
 stability = "scaffold"
 language = "rust"
-description = "Cross-desktop application foundation library providing common GTK/Wayland components"
+description = "XApp shared library (GTK widgets & helpers)"
 upstream = ["https://github.com/linuxmint/xapp"]
 
 [contract]
 provides = ["xapp-foundation-library", "common-desktop-widgets", "app-status-icon"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
